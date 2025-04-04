@@ -33,6 +33,24 @@ This project is a real-time cryptocurrency dashboard built with Python, Streamli
 3. **Install Dependencies:**
    pip install -r requirements.txt
 
-   
+## Running the Dashboard
+
+To launch the interactive dashboard:
+
+1. **Activate the Virtual Environment:**
+   source venv/bin/activate
+
+2. **Run the Streamlit App:**
+   python -m streamlit run crypto_dashboard.py
+
+3. **Interact with the Dashboard:**
+
+- Your default web browser will open the dashboard.
+
+- Use the sidebar to select the currency (e.g., USD, EUR, GBP) and choose the number of coins to display.
+
+- The main section displays a table of live crypto market data along with bar charts for current price distribution and market capitalization.
+
+- Historical data is saved automatically in crypto_history.csv and can be visualized with interactive trend charts.
 
 
