@@ -23,25 +23,30 @@ This project is a real-time cryptocurrency dashboard built with Python, Streamli
 
 1. **Clone the Repository:**
 
-   git clone https://github.com/codedova/crypto_dashboard.git
-   cd crypto_dashboard
+    git clone https://github.com/codedova/crypto_dashboard.git
+
+      cd crypto_dashboard
 
 2. **Create and Activate a Virtual Environment:**
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+      python3 -m venv venv
+      source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 3. **Install Dependencies:**
-   pip install -r requirements.txt
+
+      pip install -r requirements.txt
 
 ## Running the Dashboard
 
 To launch the interactive dashboard:
 
 1. **Activate the Virtual Environment:**
-   source venv/bin/activate
+
+      source venv/bin/activate
 
 2. **Run the Streamlit App:**
-   python -m streamlit run crypto_dashboard.py
+
+      python -m streamlit run crypto_dashboard.py
 
 3. **Interact with the Dashboard:**
 
