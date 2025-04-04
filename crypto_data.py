@@ -26,6 +26,7 @@ def fetch_crypto_data(vs_currency="usd", per_page=10, page=1):
     return response.json()
 
 if __name__ == "__main__":
+    
     # Test: fetch data for top 5 cryptocurrencies
     data = fetch_crypto_data(per_page=5)
     for coin in data:
